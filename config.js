@@ -4,7 +4,7 @@ module.exports = {
   botInvite: "",
   supportServer: "",
   mongodbURL: "mongodb+srv://shiva:shiva@musicbotyt.ouljywv.mongodb.net/?retryWrites=true&w=majority",
-  status: 'RTXX GG',
+  status: 'NAGA BOOLS HD',
   commandsDir: './commands',
   language: "en",
   embedColor: "00fbff",
@@ -13,7 +13,7 @@ module.exports = {
 
   sponsor: {
     status: true,
-    url: "https://www.youtube.com/channel/UCPbAvYWBgnYhliJa1BIrv0A",
+    url: "niggafart.com",
   },
 
   voteManager: {
@@ -29,7 +29,7 @@ module.exports = {
 
   playlistSettings: {
     maxPlaylist: 10,
-    maxMusic: 75,
+    maxMusic: 1000,
   },
 
   opt: {
@@ -47,7 +47,7 @@ module.exports = {
 
     },
 
-    maxVol: 150,
+    maxVol: 1000,
 
   }
 }
