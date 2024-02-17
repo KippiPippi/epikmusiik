@@ -7,14 +7,14 @@ module.exports = async (client, queue, song) => {
     if (queue?.textChannel) {
       const embed = new EmbedBuilder()
       .setAuthor({
-        name: 'Currently playing a Track',
-        iconURL: 'https://cdn.discordapp.com/attachments/1140841446228897932/1144671132948103208/giphy.gif', 
+        name: 'vamma musiikki',
+        iconURL: 'https://media.discordapp.net/attachments/935989994735169546/1201231534246596699/1153316632156962947.gif?ex=65db860b&is=65c9110b&hm=dba9534279568790cd9ddc95f66164bebc36206dfec931795eac5cddfc32be20&', 
         url: 'https://discord.gg/FUEHs7RCqz'
     })
-    .setDescription(`\n ‎ \n▶️ **Details :** **${song?.name}**\n▶️ **Enjoy the Ultimate Music Experience. ** \n▶️ **If link breaks playback try to give query.**`)
+    .setDescription(`\n ‎ \n▶️ **Details :** **${song?.name}**\n▶️ **osaker paree. ** \n▶️ **nekke olet vamma**`)
 .setImage(queue.songs[0].thumbnail)
     .setColor('#FF0000')
-    .setFooter({ text: 'More info - Use /help command [RTX GAMING]' });
+    .setFooter({ text: 'salee oot vammane' });
      
       queue?.textChannel?.send({ embeds: [embed] }).catch(e => { });
     }
